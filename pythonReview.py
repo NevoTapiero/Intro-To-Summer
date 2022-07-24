@@ -1,6 +1,7 @@
 title = input("What is your title? ")
 description = input("what is your youtube video description? ")
-
+num = 0
+num1 = 0
 def create_youtube_video(title, description):
 	IshowSpeed = {"title": title, "description": description, "likes": num, "dislikes": num1, comments:{}}
 	return IshowSpeed
